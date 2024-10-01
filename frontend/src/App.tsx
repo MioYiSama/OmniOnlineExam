@@ -1,11 +1,8 @@
 import {useEffect, useState} from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import axios from 'axios';
 
-function App() {
-    const [count, setCount] = useState(0)
+export default function App() {
     const [msg, setMsg] = useState("")
 
     useEffect(() => {
@@ -23,5 +20,3 @@ function App() {
         </>
     )
 }
-
-export default App
